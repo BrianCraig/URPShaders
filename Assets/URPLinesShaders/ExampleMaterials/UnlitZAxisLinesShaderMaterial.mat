@@ -8,8 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UnlitZAxisLinesShaderMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: b6e69991fe1d8b2488121a46b0d8ff4d, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: -6465566751694194690, guid: b6e69991fe1d8b2488121a46b0d8ff4d,
+    type: 3}
+  m_ShaderKeywords: ENUM_5ACA4853_Z
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,10 +21,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
+    - Boolean_944B3524: 0
+    - ENUM_5ACA4853: 3
     - LINE_HEIGHT: 0.05
     - OFFSET_LINES: 0.1
     - SECTION_HEIGHT: 0.1
     m_Colors:
     - BACKGROUND_COLOR: {r: 0.00042749807, g: 0, b: 0.13207549, a: 1}
     - LINE_COLOR: {r: 0, g: 0.036848545, b: 1, a: 1}
-  m_BuildTextureStacks: []

@@ -8,8 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SkyboxLinesShaderMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: ba9bf6a8b34f17f41b66bc32226242bd, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: -6465566751694194690, guid: b6e69991fe1d8b2488121a46b0d8ff4d,
+    type: 3}
+  m_ShaderKeywords: ENUM_5ACA4853_X
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,10 +21,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - LINE_HEIGHT: 0.01
+    - Boolean_944B3524: 1
+    - ENUM_5ACA4853: 1
+    - LINE_HEIGHT: 0.1
     - OFFSET_LINES: 0
-    - SECTION_HEIGHT: 0.1
+    - SECTION_HEIGHT: 0.5
     m_Colors:
     - BACKGROUND_COLOR: {r: 0.86226416, g: 1, b: 0.88310415, a: 1}
     - LINE_COLOR: {r: 0.083739996, g: 1, b: 0, a: 1}
-  m_BuildTextureStacks: []
