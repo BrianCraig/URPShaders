@@ -24,8 +24,11 @@ Material:
     - Boolean_944B3524: 0
     - ENUM_5ACA4853: 3
     - LINE_HEIGHT: 0.05
-    - OFFSET_LINES: 0.1
+    - LINE_SIZE_RATIO: 0.194
+    - OFFSET_LINES: 0
     - SECTION_HEIGHT: 0.1
+    - TILING: 1
+    - TILING_LINES: 4
     m_Colors:
     - BACKGROUND_COLOR: {r: 0.00042749807, g: 0, b: 0.13207549, a: 1}
     - LINE_COLOR: {r: 0, g: 0.036848545, b: 1, a: 1}
